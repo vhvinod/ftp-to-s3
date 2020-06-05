@@ -20,7 +20,7 @@ Python 3.7
 ```
 ## To do list
 - [X] Stream the file from ftp to s3 without ftp credentials (***ftp-to-s3.py***)
-- [ ] Stream the file from ftp to s3 without ftp credentials and with s3 encryption
+- [X] Stream the file from ftp to s3 without ftp credentials and with s3 encryption (***ftp-to-s3-encryption.py***)
 - [ ] Stream the file from ftp to s3 with ftp credentials
 
 ## To get Source Code
