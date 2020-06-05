@@ -18,7 +18,7 @@ This method does not use up disk space and therefore is not limited by size.
 Python 3.7
 
 ## To do list
-- [X] Stream the file from ftp to s3 without ftp credentials
+- [X] Stream the file from ftp to s3 without ftp credentials (ftp-to-s3.py)
 - [ ] Stream the file from ftp to s3 without ftp credentials and with s3 encryption
 - [ ] Stream the file from ftp to s3 with ftp credentials
 
