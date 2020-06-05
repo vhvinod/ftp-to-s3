@@ -18,5 +18,5 @@ def lambda_handler(event, context):
         logger.info('Login Successful')
         ftp.cwd(ftp_path)
         logger.info('Downloading file: ' +file_name)
-        ftp.retrbinary('RETR ' + file_name, s3.open("{}/{}".format(s3Bucket, 'Inbound/'+file_name), 'wb').write)
+        ftp.retrbinary('RETR ' + file_name, s3.open("{}/{}".format(s3Bucket, file_name), 'wb').write)
         logger.info('Download completed ' +file_name)
