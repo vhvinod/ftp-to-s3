@@ -23,7 +23,8 @@ Python 3.7
 - [X] Stream the file from ftp to s3 without ftp credentials and with s3 encryption (***ftp-to-s3-encryption.py***)
 - [X] Stream the file from ftp to s3 with ftp credentials (***ftp-cred-to-s3.py***)
 - [X] Stream all the files from ftp to s3 (***files-ftp-to-s3.py***)
-- [ ] Read user name and passwrod from AWS secrets manager
+- [X] Read user name and passwrod from AWS secrets manager (***ftp-to-s3-secrets.py***)
+- [ ] Extract the zip file from S3 bucket to S3 bucket
 
 ## To get Source Code
 git clone https://github.com/vhvinod/ftp-to-s3.git
