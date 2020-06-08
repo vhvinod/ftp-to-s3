@@ -14,7 +14,7 @@ def lambda_handler(event, context):
     secret_name = "<secret_name>" #provide secret name from AWS secrets manager
     region_name = "<region_name>" #provide region name
     
-	  ftp_url = "localhost"         #provide FTP host
+    ftp_url = "localhost"         #provide FTP host
     ftp_path = "/test_folder/"    #provide FTP path
     s3Bucket = "s3-bucket"        #provide s3 bucket name
     file_name = "sample.txt"      #provide file name
