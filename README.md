@@ -18,6 +18,8 @@ This method does not use up disk space and therefore is not limited by size.
 ```
 Python 3.7
 ```
+## How to run?
+Run on AWS Lamda using Python 3.7
 ## To do list
 - [X] Stream the file from ftp to s3 without ftp credentials (***ftp-to-s3.py***)
 - [X] Stream the file from ftp to s3 without ftp credentials and with s3 encryption (***ftp-to-s3-encryption.py***)
